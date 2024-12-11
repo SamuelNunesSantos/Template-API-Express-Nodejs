@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "experimentalDecorators": true, // Habilita o uso de decoradores
+    "emitDecoratorMetadata": true // Emite metadados necessários para os decoradores
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
